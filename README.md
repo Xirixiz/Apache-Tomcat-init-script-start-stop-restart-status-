@@ -16,5 +16,5 @@ CATALINA_BASE should point to CATALINA_HOME if there is only one instance of Tom
 
 
 Pernonal notes/reminders:
-# update-alternatives --install "/usr/bin/java" "java" "/usr/java/latest/bin/java" 1
-# update-alternatives --set java /usr/java/latest/bin/java
+\# update-alternatives --install "/usr/bin/java" "java" "/usr/java/latest/bin/java" 1
+\# update-alternatives --set java /usr/java/latest/bin/java
