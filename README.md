@@ -13,3 +13,8 @@ What the script does on top of other scripts is that it checks whetere I'm alrea
 
 Note:
 CATALINA_BASE should point to CATALINA_HOME if there is only one instance of Tomcat running.
+
+
+Pernonal notes/reminders:
+# update-alternatives --install "/usr/bin/java" "java" "/usr/java/latest/bin/java" 1
+# update-alternatives --set java /usr/java/latest/bin/java
