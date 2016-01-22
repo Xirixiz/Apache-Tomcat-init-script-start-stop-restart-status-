@@ -2,6 +2,7 @@
 Apache Tomcat init script.
 
 There are a lot of Tomcat init scripts available online. I created one from multiple scripts I found on Github to fullfill my needs.
+One thing I was looking for is to kill the Tomcat/Java process if the process hasn't been shutdown after x seconds.
 
 I`m using Puppet to provision this script (removed all Puppet variables in this version) in order to place the script within the Linux /etc/init.d folder and within a folder called /opt/tomcat (owner Tomcat). 
 
