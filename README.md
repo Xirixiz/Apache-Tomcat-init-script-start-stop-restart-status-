@@ -11,9 +11,8 @@ The reason I did this is because I want someone to sudo to Tomcat and use the sc
 
 What the script does on top of other scripts is that it checks whetere I'm already logged on as the user "tomcat" so it doesnt use the "su <user> -c <command>" execution line, ofcourse resulting a prompt for a password (since I`m trying to su to "tomcat" while I already loggen on as the user "tomcat")
 
-Notes
+Notes:
 CATALINA_BASE should point to CATALINA_HOME if there is only one instance of Tomcat running.
-
 
 Pernonal notes/reminders:
 \# update-alternatives --install "/usr/bin/java" "java" "/usr/java/latest/bin/java" 1
