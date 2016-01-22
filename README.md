@@ -1,4 +1,4 @@
-# Apache-Tomcat-init-script-start-stop-restart-status-
+# Apache Tomcat init script (start|stop|restart|status)
 Apache Tomcat init script.
 
 There are a lot of Tomcat init scripts available online. I created one from multiple scripts I found on Github to fullfill my needs.
