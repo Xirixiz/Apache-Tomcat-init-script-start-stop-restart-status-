@@ -10,7 +10,7 @@ export JAVA_HOME=/usr/java/latest
 
 # Add JAVA_OPTS
 export JAVA_OPTS='-server -Xms2048m -Xmx3072m -Duser.language=nl -Duser.region=NL'
-export JAVA_OPTS="${JAVA_OPTS} -Dalfresco.home=${ALF_HOME} -Dcom.sun.management.jmxremote"
+# export JAVA_OPTS="${JAVA_OPTS} -Dalfresco.home=${ALF_HOME} -Dcom.sun.management.jmxremote"
 
 #Add Java binary files to PATH
 export PATH=$JAVA_HOME/bin:$PATH
